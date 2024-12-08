@@ -1,0 +1,24 @@
+{
+    "name": "choice_modules_default",
+    "type": "collection",
+    "description": "模块精选合集",
+    "author": ["梗体中文内容组"],
+    "contains": [
+        "bagify",
+        "bedrock_logo",
+        "bee_pickaxe",
+        "dorowolf_texture",
+        "goat_horn_sound",
+        "locusazzurro",
+        "map_override",
+        "meme_resourcepack",
+        "meme_splashes",
+        "mopemope",
+        "observer_think",
+        "questioning_totem",
+        "rainbow_enchanting",
+        "real_grass",
+        "technical_fix",
+        "trident_model"
+    ]
+}

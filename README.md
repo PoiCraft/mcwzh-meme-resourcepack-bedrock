@@ -7,15 +7,22 @@
 此资源包仅适用于**Minecraft基岩版**。
 
 * 关于适用于Minecraft Java版的资源包，参见[Java版梗体中文](https://github.com/Teahouse-Studios/mcwzh-meme-resourcepack)。
-* 关于Minecraft基岩版的翻译问题，详见[译名标准化/基岩版](https://minecraft-zh.gamepedia.com/MCW:译名标准化/基岩版)。
+* 关于Minecraft基岩版的翻译问题，详见[译名标准化/基岩版](https://zh.minecraft.wiki/w/Minecraft_Wiki:译名标准化/基岩版)。
   * 关于Minecraft基岩版的简体中文修正，参见中文Minecraft Wiki行政员Ff98sha制作的[基岩版译名修正](https://github.com/ff98sha/mclangcn)。
   * 关于Minecraft基岩版的繁体中文修正，参见小俊AUA制作的[此资源附加包](https://forum.gamer.com.tw/C.php?bsn=18673&snA=183269)。
-  * 关于Minecraft基岩版的全语言修正，参见俄语Crowdin校对员fromgate制作的[Translations for Minecraft (Bedrock)](https://www.curseforge.com/minecraft/mc-addons/translations-for-minecraft)。
+  * 关于Minecraft基岩版的全语言修正，参见俄语Crowdin校对员fromgate制作的[Translations for Minecraft (Bedrock)](https://www.curseforge.com/minecraft-bedrock/addons/translations-for-minecraft)。
+
+## 赞助者
+<p align="center">
+  <a href="https://afdian.net/@teahouse">
+    <img src='https://fe.wd-ljt.com/m3me/sP0ns0r5/sP0ns0r5.svg'>
+  </a>
+</p>
 
 ## 注意
 
 * 本资源包**仅供娱乐**，请勿将其可能存在的误导性内容当真。
-  * 若发现自身可能存在该资源包上头的情况，**请立刻~~食用~~阅读[译名标准化](https://minecraft.fandom.com/zh/wiki/MCW:译名标准化)**。
+  * 若发现自身可能存在该资源包上头的情况，**请立刻~~食用~~阅读[译名标准化](https://zh.minecraft.wiki/w/Minecraft_Wiki:译名标准化)**。
   * 在使用本资源包的过程中，若难以理解被修改后的内容，**请及时在设置中将语言改回简体中文**。
 * 本资源包的内容大部分参照于其[Java版的版本](https://github.com/Teahouse-Studios/mcwzh-meme-resourcepack)，另外加入了一些适配于基岩版的内容。
 * 若无特殊说明，下文中“Minecraft”皆指**Minecraft基岩版**，“资源包”皆指附加包中的类型之一。
@@ -91,31 +98,23 @@
 
 #### 先决条件
 
-请确保已经安装了Python 3.9+和Git。如果没有，请到[Python官网](https://www.python.org)和[Git官网](https://www.git-scm.com)下载。
+请确保已经安装了NodeJS主流版本和Git。如果没有，请到[NodeJS官网](https://nodejs.org/zh-cn/)和[Git官网](https://www.git-scm.com)下载。
 
 #### 步骤
 
 1. 下载源码；
 2. 进入文件夹；
-3. 安装相关pip依赖；
+3. 安装相关依赖；
 4. 运行预设打包命令。
 
 ``` sh
-git clone https://github.com/Teahouse-Studios/mcwzh-meme-resourcepack-bedrock.git
-cd mcwzh-meme-resourcepack-bedrock
-pip install -r requirements.txt
-python preset_build.py
+git clone https://github.com/Teahouse-Studios/mcwzh-meme-resourcepack.git
+cd mcwzh-meme-resourcepack
+npm install
+node preset_build.js
 ```
 
 在文件夹中会出现 `meme-resourcepack.zip` 、 `meme-resourcepack_noresource.zip` 、 `meme-resourcepack.mcpack` 和 `meme-resourcepack_noresource.mcpack` 等资源包，名称和作用如上所述。
-
-如果需要预设以外的资源包，可输入需要的参数：
-
-``` bash
-python -m memepack_builder ...
-```
-
-具体用法可见[此处](https://github.com/Teahouse-Studios/memepack-builder/blob/main/doc/CLI_Manual.zh-hans.md)。
 
 ## 贡献
 
@@ -127,8 +126,8 @@ python -m memepack_builder ...
 * 本资源包与其[Java版的版本](https://github.com/Teahouse-Studios/mcwzh-meme-resourcepack)相比可能更新较慢并且缺少一些内容。
   * 缺少的内容可能是由于基岩版本身就缺少这些字符串，也可能是移植时的疏忽造成的，如果遇到这些情况请您积极提交议题反馈。
   * 同理，Java版的内容也可能缺少基岩版的内容。
-* 本资源包与Mojang、Minecraft Wiki、Gamepedia和Fandom无关，原中文翻译版权为Mojang和翻译者所有。
-  * 关于正确的译名，请参见[中文Minecraft Wiki的译名标准化](https://minecraft-zh.gamepedia.com/MCW:译名标准化)。
+* 本资源包与Mojang、Minecraft Wiki和Weird Gloop无关，原中文翻译版权为Mojang和翻译者所有。
+  * 关于正确的译名，请参见[中文Minecraft Wiki的译名标准化](https://zh.minecraft.wiki/w/Minecraft_Wiki:译名标准化)。
 * 本项目文件除另有声明外，均以 ***CC BY-SA 4.0*** 协议授权。
   * 这意味着，您可在署名的情况下自由修改本资源包，但是您再创作的作品必须以本协议发布。
   * 这不是法律建议。

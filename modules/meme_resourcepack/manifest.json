@@ -1,0 +1,50 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "§bAn add-on that include meme translation in Chinese.\n需要基岩版1.13.0+",
+        "name": "§e梗体中文附加包-§l基岩版",
+        "uuid": "409f7aec-38b9-428e-a4ea-a11dabe8d9b7",
+        "version": [1, 9, 0],
+        "min_engine_version": [1, 13, 0]
+    },
+    "modules": [
+        {
+            "description": "An add-on that include meme translation in Chinese. ",
+            "type": "resources",
+            "uuid": "624ab209-a03d-42dc-bf40-9cb44153c1b9",
+            "version": [1, 9, 0]
+        }
+    ],
+    "capabilities": ["experimental_custom_ui", "chemistry"],
+    "metadata": {
+        "authors": [
+            "SkyEye_FAST",
+            "Lakejason0",
+            "MysticNebula70",
+            "HLDoroWolf",
+            "Lxazl5770",
+            "Dianliang233",
+            "Huerdada",
+            "IcyPhantom",
+            "Lightyzhh",
+            "Kakagou12341",
+            "AddonsCommandResource",
+            "Gu_ZT",
+            "ZCYF",
+            "XxLittleCxX",
+            "WishingQi",
+            "Determancer",
+            "Minecreeper86",
+            "theflysong",
+            "Zh9c418",
+            "45gfg9",
+            "Drlee_lihr",
+            "WTP016-CN",
+            "Light Beacon",
+            "CR-019",
+            "Other Minecraft Wiki(ZH) editors"
+        ],
+        "license": "CC BY-SA 4.0",
+        "url": "https://github.com/Teahouse-Studios/mcwzh-meme-resourcepack-bedrock"
+    }
+}

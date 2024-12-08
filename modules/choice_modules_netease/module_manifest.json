@@ -2,25 +2,31 @@
     "name": "choice_modules_netease",
     "type": "collection",
     "description": "中国版的预设打包。",
-    "author": [
-        "电量量"
-    ],
+    "author": ["电量量", "ff98sha"],
     "contains": [
-        "a_piece_of_seriousness",
+        "bagify",
         "baguette",
         "bee_pickaxe",
         "bell_sound",
+        "chicken_soup",
+        "disco_ball",
         "dorowolf_texture",
-        "ekac",
         "firework_sound",
+        "goat_horn_sound",
+        "jinkela",
+        "latiao",
         "locusazzurro",
+        "map_override",
         "minecart_helmet",
         "mopemope",
         "observer_think",
         "open_close_sound",
         "questioning_totem",
-        "trident_model",
+        "real_grass",
+        "red_leaf_valley",
+        "reverse_cake",
         "sculk_sound",
+        "technical_fix",
         "vulpes_ferrilata"
     ]
 }
